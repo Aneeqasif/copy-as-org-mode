@@ -46,7 +46,7 @@ storageManager.getData().then((obj) => {
 browser.menus.create(
   {
     id: "copy-current-page-url-as-org-mode",
-    title: "Copy Current Page's Title and URL as Org-Mode",
+    title: "Orgmode: Copy URL",
     contexts: ["page", "frame"],
     documentUrlPatterns: ["<all_urls>"],
   },
